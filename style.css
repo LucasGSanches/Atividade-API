@@ -6,4 +6,31 @@ body {
 	display: flex;
     flex-direction: column;
 	padding: 5px;
+	background-color: #1f1f1f;
+	color: #dddddd
+}
+
+main {
+	flex: 1;
+}
+footer {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.main_container {
+	display: flex;
+	flex-direction: column;
+}
+
+.item {
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	justify-content: center;
+	border: solid #dddddd 2px;
 }
